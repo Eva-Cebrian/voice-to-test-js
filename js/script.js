@@ -3,6 +3,8 @@
 boton_convertir.addEventListener('click',function(){
     var speech = true;
     window.SpeechRecognition = window.webkitSpeechRecognition;
+
+    
     const recognition = new SpeechRecognition();
     recognition.interimResults = true;  // actualizaciones en tiempo real mientras el usuario habla, en lugar de esperar hasta que termine de hablar para obtener el resultado final.
 
@@ -20,7 +22,7 @@ boton_convertir.addEventListener('click',function(){
 
 })
 
-console.log("Esto es una prueba");
+
 
 
 
